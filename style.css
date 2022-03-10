@@ -223,6 +223,15 @@ input[type="search"] {
   font-size: 10px;
 }
 
+@media screen and (max-width: 1280px) {
+  .section-2 {
+    display: none;
+  }
+  .section-3 {
+    display: none;
+  }
+}
+
 .section-2 {
   height: 12vh;
   position: relative;

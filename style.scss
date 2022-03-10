@@ -57,6 +57,7 @@ input[type="search"] {
 
         //600px tablets
         @media screen and (max-width: 1280px) {
+            
             .ham{
                 display:inline-block;
             } &:hover{
@@ -67,6 +68,7 @@ input[type="search"] {
                 display:none;
                 background: red;
             }
+
 
             .nav-searchbar{
                 display: none;
@@ -117,6 +119,7 @@ input[type="search"] {
                 display:none;
                 background: red;
             }
+
         }
     }
 
@@ -221,12 +224,24 @@ input[type="search"] {
     font-size:10px;
 }
 
+//1280px tablets
+@media screen and (max-width: 1280px) {
+    .section-2{
+        display: none;
+    }
+
+    .section-3{
+        display: none;
+    }
+}
+
 
 .section-2{
     height: 12vh;
     position: relative;
     top: 100px;
     background-color: #F2F3F3;
+
 
 
     .section-2-nav{
@@ -238,6 +253,7 @@ input[type="search"] {
         max-width: 1028px;
         width:calc(100% - 50px);
         margin: 0px auto;
+
         
         li{
             list-style: none;
