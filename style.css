@@ -68,8 +68,20 @@ input[type="search"] {
   height: 40px;
 }
 
+.top header .search {
+  height: calc(100% - 5px);
+  display: none;
+  height: 40px;
+}
+
 @media screen and (max-width: 1280px) {
   .top header .ham {
+    display: inline-block;
+  }
+  .top header:hover {
+    cursor: pointer;
+  }
+  .top header .search {
     display: inline-block;
   }
   .top header:hover {
@@ -227,6 +239,9 @@ input[type="search"] {
   .section-2 {
     display: none;
   }
+}
+
+@media screen and (max-width: 600px) {
   .section-3 {
     display: none;
   }
