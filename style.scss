@@ -48,6 +48,76 @@ input[type="search"] {
         margin: auto auto;
         width: calc(100% - 30px);
         height: 100%;
+
+        .ham{
+            height: calc(100% - 5px);
+            display: none;
+            height:40px;
+        }
+
+        //600px tablets
+        @media screen and (max-width: 1280px) {
+            .ham{
+                display:inline-block;
+            } &:hover{
+                cursor: pointer;
+            }
+
+            .navbar{
+                display:none;
+                background: red;
+            }
+
+            .nav-searchbar{
+                display: none;
+            }
+
+            .login-btn{
+                display: none;
+            }
+    
+            .register-btn{
+                display: none;
+            }
+
+            .Basket-btn{
+                display: none;
+            }
+
+            .basket-img{
+                background-size: 150px;
+                width: 50px;
+                height: 45px;
+            }
+
+            .logo-img{
+                background-size: 150px;
+                width: 170px;
+                height: 70px;
+                // margin:0px 45px 0px 5px;
+                margin: auto auto;
+            }
+
+            .navbar2{
+                p{
+                    display: none;
+                }
+            }
+        }
+
+        //600px phones
+        @media screen and (max-width: 600px) {
+            .ham{
+                display:inline-block;
+            } &:hover{
+                cursor: pointer;
+            }
+
+            .navbar{
+                display:none;
+                background: red;
+            }
+        }
     }
 
     .logo-img{

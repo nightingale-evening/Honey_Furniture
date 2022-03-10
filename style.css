@@ -62,6 +62,64 @@ input[type="search"] {
   height: 100%;
 }
 
+.top header .ham {
+  height: calc(100% - 5px);
+  display: none;
+  height: 40px;
+}
+
+@media screen and (max-width: 1280px) {
+  .top header .ham {
+    display: inline-block;
+  }
+  .top header:hover {
+    cursor: pointer;
+  }
+  .top header .navbar {
+    display: none;
+    background: red;
+  }
+  .top header .nav-searchbar {
+    display: none;
+  }
+  .top header .login-btn {
+    display: none;
+  }
+  .top header .register-btn {
+    display: none;
+  }
+  .top header .Basket-btn {
+    display: none;
+  }
+  .top header .basket-img {
+    background-size: 150px;
+    width: 50px;
+    height: 45px;
+  }
+  .top header .logo-img {
+    background-size: 150px;
+    width: 170px;
+    height: 70px;
+    margin: auto auto;
+  }
+  .top header .navbar2 p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top header .ham {
+    display: inline-block;
+  }
+  .top header:hover {
+    cursor: pointer;
+  }
+  .top header .navbar {
+    display: none;
+    background: red;
+  }
+}
+
 .top .logo-img {
   background-size: 150px;
   width: 170px;

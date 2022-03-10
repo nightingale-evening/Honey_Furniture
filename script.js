@@ -1,0 +1,1 @@
+const hamburger_image = document.getElementById("hamburger_image");
