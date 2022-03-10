@@ -1,0 +1,267 @@
+@import url("http://fonts.cdnfonts.com/css/feeling-passionate");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+/* Reset the page in SCSS */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 100%;
+}
+
+.section-3-text {
+  font-family: 'Feeling Passionate', sans-serif;
+  opacity: 55%;
+  font-size: 60px;
+  text-align: center;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  text-decoration: none;
+}
+
+.top a {
+  text-decoration: none;
+  color: #0c0c0c;
+}
+
+.top header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.top .logo-img {
+  background-size: 150px;
+  width: 170px;
+  height: 70px;
+  margin: 0px 45px 0px 5px;
+}
+
+.top .basket-img {
+  background-size: 150px;
+  width: 50px;
+  height: 45px;
+}
+
+.top .navbar, .top .navbar2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+.top .navbar li, .top .navbar2 li {
+  margin: 10px;
+}
+
+.top .navbar li {
+  list-style: none;
+}
+
+.top .navbar li:before {
+  content: "\2022";
+  color: yellow;
+  list-style: none;
+}
+
+.top .navbar2 {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.top .nav-searchbar {
+  width: 550px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  background: #eeecec;
+  outline: none;
+  padding-left: 20px;
+  margin: 0px 0px 0px 45px;
+}
+
+.top .nav-searchbar input.nosubmit {
+  width: 260px;
+  border: 1px solid #555;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+.Fjalla-text {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+}
+
+.Fjalla-text-h2 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+}
+
+.Fjalla-text-h3 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 10px;
+}
+
+.section-2 {
+  height: 12vh;
+  position: relative;
+  top: 100px;
+  background-color: #F2F3F3;
+}
+
+.section-2 .section-2-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+  width: calc(100% - 50px);
+  margin: 0px auto;
+}
+
+.section-2 .section-2-nav li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.section-2 .section-2-nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.section-2 .section-2-nav .finance-li-grey {
+  background-color: grey;
+  border-radius: 25px;
+  width: 60px;
+  height: 72px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+}
+
+.section-3 {
+  height: 25vh;
+  position: relative;
+  top: 100px;
+  background-color: #ffffff;
+}
+
+.section-3 .section-3-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+  width: calc(100% - 10px);
+  margin: 0px auto;
+}
+
+.section-3 .section-3-nav li {
+  list-style: none;
+}
+
+.section-3 .wrench-img {
+  background-size: 150px;
+  width: 60px;
+  height: 70px;
+}
+
+.section-3 .van-img {
+  background-size: 150px;
+  width: 60px;
+  height: 70px;
+}
+
+.section-3 .trustpilot-img {
+  background-size: 100px;
+  width: 145px;
+  height: 90px;
+}
+
+.section-3 .thumbsUp-img {
+  background-size: 150px;
+  width: 60px;
+  height: 70px;
+}
+
+.section-3 .wallet-img {
+  background-size: 150px;
+  width: 60px;
+  height: 70px;
+}
+
+.section-3 .icon-info-3 {
+  margin: 0px -10px 0px -10px;
+}
+
+.section-3 .icon-info-1, .section-3 .icon-info-2, .section-3 .icon-info-4, .section-3 .icon-info-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=style.css.map */
