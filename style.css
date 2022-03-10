@@ -307,7 +307,7 @@ input[type="search"] {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .section-4-5-6 .product-1-text {
@@ -374,5 +374,12 @@ input[type="search"] {
   max-width: 1028px;
   width: calc(100% - 10px);
   margin: 0px auto;
+}
+
+.section-7 {
+  height: 25vh;
+  margin: 100px;
+  position: relative;
+  top: 27px;
 }
 /*# sourceMappingURL=style.css.map */

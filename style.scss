@@ -259,7 +259,7 @@ input[type="search"] {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 
     .product-1-text{
         font-family: 'Feeling Passionate', sans-serif;
@@ -332,4 +332,11 @@ input[type="search"] {
     width:calc(100% - 10px);
     margin: 0px auto;
     
+}
+
+.section-7{
+    height: 25vh;
+    margin: 100px;
+    position: relative;
+    top: 27px;
 }
