@@ -12,6 +12,11 @@ body {
   font-family: 100%;
 }
 
+input[type="search"] {
+  font-family: FontAwesome;
+  position: relative;
+}
+
 .section-3-text {
   font-family: 'Feeling Passionate', sans-serif;
   opacity: 55%;
@@ -127,7 +132,7 @@ body {
 
 .top .nav-searchbar {
   width: 500px;
-  height: 35px;
+  height: 55px;
   border-radius: 25px;
   border: none;
   background: #eeecec;
