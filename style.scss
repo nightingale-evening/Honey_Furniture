@@ -15,7 +15,7 @@ body{
 .section-3-text{
     font-family: 'Feeling Passionate', sans-serif;
     opacity: 55%;
-    font-size:60px;
+    font-size:50px;
     text-align: center;
 }
 
@@ -38,8 +38,8 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // margin: auto auto;
-        //width: calc(100% - 30px);
+        margin: auto auto;
+        width: calc(100% - 30px);
         height: 100%;
     }
 
@@ -87,11 +87,31 @@ body{
         // li{
         //     margin:70px 0px;
         // }
+
+        .login-btn{
+            &:hover{
+                color: rgb(206, 206, 6);
+            }
+        }
+
+        .register-btn{
+            &:hover{
+                color: rgb(206, 206, 6);
+            }
+        }
+
+        .Basket-btn{
+            color:rgb(34, 34, 34);
+            &:hover{
+                color:rgb(156, 156, 156);
+                transition: 0.5s;
+            }
+        }
     }
 
     .nav-searchbar{
-        width: 550px;
-        height: 50px;
+        width: 500px;
+        height: 35px;
         border-radius: 25px;
         border: none;
         background: rgb(238, 236, 236);
@@ -138,12 +158,10 @@ body{
         align-items: center;
         flex-direction: row;
         height: 100%;
-        //max-width: 1028px;
+        max-width: 1028px;
         width:calc(100% - 50px);
         margin: 0px auto;
         
-        
-
         li{
             list-style: none;
             text-decoration: none;
@@ -178,7 +196,7 @@ body{
         align-items: center;
         flex-direction: row;
         height: 100%;
-        // max-width: 1028px;
+        max-width: 1028px;
         width:calc(100% - 10px);
         margin: 0px auto;
 
@@ -218,7 +236,7 @@ body{
     }
 
     .icon-info-3{
-        margin: 0px -10px 0px -10px;
+        margin: 0px 10px 0px 10px;
     }
 
     .icon-info-1, .icon-info-2, .icon-info-4, .icon-info-5{
