@@ -261,6 +261,55 @@ input[type="search"] {
     }
 }
 
+
+.popup{
+    position:fixed;
+    background: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index:999;
+    transition-duration: 1s;
+    transition-property: transform;
+
+    .ham-ul{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: transform 1s ease-in;
+        transform: translate(-6000px, 0px);
+
+        .close-popup{
+            color:rgb(34, 34, 34);
+        }
+    }
+
+    li{
+        list-style: none;
+        margin:10px;
+        a{
+            text-decoration: none;
+            font-size: 8vw;
+            font-size:6vh;
+            color: black;
+        } &:hover{
+            font-weight:bold;
+        }
+    }
+}
+
+.disabled{
+    display: none;
+    background: black;
+}
+
+
 .Fjalla-text{
     font-family: 'Fjalla One', sans-serif;
     font-size:20px;
