@@ -141,6 +141,7 @@ input[type="search"] {
 
         }
 
+        /*Galaxy Fold*/
         @media screen and (max-width: 300px){
             .ham{
                 display:inline-block;
@@ -156,6 +157,16 @@ input[type="search"] {
             .logo-img{
                 background-size: 150px;
                 width: 140px;
+                height: 70px;
+                margin:0px 45px 0px 5px;
+            }
+        }
+
+        /*1920x1080*/
+        @media screen and (min-width:1920px) and (max-width:1920px){
+            .logo-img{
+                background-size: 150px;
+                width: 270px;
                 height: 70px;
                 margin:0px 45px 0px 5px;
             }
@@ -231,7 +242,7 @@ input[type="search"] {
 
     .nav-searchbar{
         width: 500px;
-        height: 55px;
+        height: 33.5px;
         border-radius: 25px;
         border: none;
         background: rgb(238, 236, 236);
@@ -339,11 +350,25 @@ input[type="search"] {
     }
 }
 
+@media screen and (max-width:915px){
+    .section-3{
+        .section-3-nav{
+            .icon-info-1, .icon-info-2, .icon-info-3, .icon-info-4, .icon-info-5, {
+                display: none;
+            }
+        }
+        .section-3-text{
+            display: none;
+        }
+    }
+}
+
 .section-3{
     height: 25vh;
     position: relative;
     top: 100px;
     background-color: #ffffff;
+
 
     .section-3-nav{
         display: flex;

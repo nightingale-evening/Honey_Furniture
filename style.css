@@ -60,6 +60,8 @@ input[type="search"] {
   margin: auto auto;
   width: calc(100% - 30px);
   height: 100%;
+  /*Galaxy Fold*/
+  /*1920x1080*/
 }
 
 .top header .ham {
@@ -157,6 +159,15 @@ input[type="search"] {
   }
 }
 
+@media screen and (min-width: 1920px) and (max-width: 1920px) {
+  .top header .logo-img {
+    background-size: 150px;
+    width: 270px;
+    height: 70px;
+    margin: 0px 45px 0px 5px;
+  }
+}
+
 .top .logo-img {
   background-size: 150px;
   width: 200px;
@@ -229,7 +240,7 @@ input[type="search"] {
 
 .top .nav-searchbar {
   width: 500px;
-  height: 55px;
+  height: 33.5px;
   border-radius: 25px;
   border: none;
   background: #eeecec;
@@ -338,6 +349,15 @@ input[type="search"] {
 
 .section-2 .section-2-nav .finance-li-grey li .Finance-white {
   color: white;
+}
+
+@media screen and (max-width: 915px) {
+  .section-3 .section-3-nav .icon-info-1, .section-3 .section-3-nav .icon-info-2, .section-3 .section-3-nav .icon-info-3, .section-3 .section-3-nav .icon-info-4, .section-3 .section-3-nav .icon-info-5 {
+    display: none;
+  }
+  .section-3 .section-3-text {
+    display: none;
+  }
 }
 
 .section-3 {
