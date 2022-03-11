@@ -141,6 +141,26 @@ input[type="search"] {
 
         }
 
+        @media screen and (max-width: 400px){
+            .ham{
+                display:inline-block;
+            } &:hover{
+                cursor: pointer;
+            }
+
+            .navbar{
+                display:none;
+                background: red;
+            }
+
+            .logo-img{
+                background-size: 150px;
+                width: 199px;
+                height: 70px;
+                margin:0px 45px 0px 5px;
+            }
+        }
+
         /*Galaxy Fold*/
         @media screen and (max-width: 300px){
             .ham{
@@ -529,15 +549,24 @@ input[type="search"] {
     }
 }
 
-// .imagebox{
-//     position: relative;
-//     top: -50px;
-//     width: calc(50% + 50px);
-//     height: 100px;
-//     background-color: #16889A;
-//     border-left: 100px solid white;
-//     border-bottom: 50px solid transparent;
-// }
+.imagebox2{
+    // position: relative;
+    // top: -50px;
+    // width: calc(50% + 50px);
+    // height: 100px;
+    // background-color: #16889A;
+    // border-left: 100px solid white;
+    // border-bottom: 50px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    img{
+        width: 20%;
+        height: auto;
+    }
+}
 
 
     // .imagebox:before {

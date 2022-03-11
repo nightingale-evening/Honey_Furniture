@@ -140,6 +140,25 @@ input[type="search"] {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .top header .ham {
+    display: inline-block;
+  }
+  .top header:hover {
+    cursor: pointer;
+  }
+  .top header .navbar {
+    display: none;
+    background: red;
+  }
+  .top header .logo-img {
+    background-size: 150px;
+    width: 199px;
+    height: 70px;
+    margin: 0px 45px 0px 5px;
+  }
+}
+
 @media screen and (max-width: 300px) {
   .top header .ham {
     display: inline-block;
@@ -568,6 +587,27 @@ input[type="search"] {
 
 .section-4-5-6 .product-3-text p {
   font-size: 1.4vw;
+}
+
+.imagebox2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.imagebox2 img {
+  width: 20%;
+  height: auto;
 }
 
 .section-4 {
