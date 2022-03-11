@@ -337,7 +337,7 @@ input[type="search"] {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 100%;
-  max-width: 1028px;
+  max-width: 2028px;
   width: calc(100% - 10px);
   margin: 0px auto;
 }
@@ -394,6 +394,10 @@ input[type="search"] {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.section-3 .icon-info-1 h3, .section-3 .icon-info-2 h3, .section-3 .icon-info-4 h3, .section-3 .icon-info-5 h3 {
+  font-size: 1.3vw;
 }
 
 .section-4-5-6 {

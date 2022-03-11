@@ -324,7 +324,7 @@ input[type="search"] {
         align-items: center;
         flex-direction: row;
         height: 100%;
-        max-width: 1028px;
+        max-width: 2028px;
         width:calc(100% - 10px);
         margin: 0px auto;
 
@@ -372,6 +372,10 @@ input[type="search"] {
         align-items:center;
         justify-content: space-between;
         flex-direction: row;
+
+        h3{
+            font-size: 1.3vw;
+        }
     }
 }
 
