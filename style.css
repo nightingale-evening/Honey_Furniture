@@ -105,12 +105,12 @@ input[type="search"] {
   }
   .top header .basket-img {
     background-size: 150px;
-    width: 50px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
   }
   .top header .logo-img {
     background-size: 150px;
-    width: 170px;
+    width: 199px;
     height: 70px;
     margin: auto auto;
   }
@@ -141,8 +141,8 @@ input[type="search"] {
 
 .top .basket-img {
   background-size: 150px;
-  width: 50px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
 }
 
 .top .navbar, .top .navbar2 {
