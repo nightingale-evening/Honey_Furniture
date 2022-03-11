@@ -100,13 +100,13 @@ input[type="search"] {
 
             .basket-img{
                 background-size: 150px;
-                width: 65px;
-                height: 65px;
+                width: 50px;
+                height: 50px;
             }
 
             .logo-img{
                 background-size: 150px;
-                width: 199px;
+                width: 190px;
                 height: 70px;
                 // margin:0px 45px 0px 5px;
                 margin: auto auto;
@@ -132,12 +132,39 @@ input[type="search"] {
                 background: red;
             }
 
+            .logo-img{
+                background-size: 150px;
+                width: 240px;
+                height: 70px;
+                margin:0px 45px 0px 5px;
+            }
+
+        }
+
+        @media screen and (max-width: 300px){
+            .ham{
+                display:inline-block;
+            } &:hover{
+                cursor: pointer;
+            }
+
+            .navbar{
+                display:none;
+                background: red;
+            }
+
+            .logo-img{
+                background-size: 150px;
+                width: 140px;
+                height: 70px;
+                margin:0px 45px 0px 5px;
+            }
         }
     }
 
     .logo-img{
         background-size: 150px;
-        width: 170px;
+        width: 200px;
         height: 70px;
         margin:0px 45px 0px 5px;
     }
