@@ -20,7 +20,7 @@ input[type="search"] {
 .section-3-text {
   font-family: 'Feeling Passionate', sans-serif;
   opacity: 55%;
-  font-size: 5vw;
+  font-size: 3vw;
   text-align: center;
 }
 
@@ -154,6 +154,7 @@ input[type="search"] {
 
 .top .navbar li, .top .navbar2 li {
   margin: 10px;
+  font-size: 1.05vw;
 }
 
 .top .navbar li {
@@ -210,6 +211,7 @@ input[type="search"] {
   outline: none;
   padding-left: 20px;
   margin: 0px 0px 0px 45px;
+  font-size: 0.9vw;
 }
 
 .top .nav-searchbar input.nosubmit {
@@ -248,7 +250,7 @@ input[type="search"] {
 }
 
 .section-2 {
-  height: 12vh;
+  height: 8vh;
   position: relative;
   top: 100px;
   background-color: #F2F3F3;
@@ -269,14 +271,17 @@ input[type="search"] {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 100%;
-  max-width: 1028px;
-  width: calc(100% - 50px);
-  margin: 0px auto;
+  margin: 0px 100px;
+  margin-right: auto;
+  -webkit-box-ordinal-group: 10;
+      -ms-flex-order: 9;
+          order: 9;
 }
 
 .section-2 .section-2-nav li {
   list-style: none;
   text-decoration: none;
+  font-size: 1.1vw;
 }
 
 .section-2 .section-2-nav li a {
@@ -284,14 +289,30 @@ input[type="search"] {
   color: black;
 }
 
+.section-2 .section-2-nav .Fjalla-text-h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .section-2 .section-2-nav .finance-li-grey {
   background-color: grey;
-  border-radius: 25px;
-  width: 60px;
-  height: 72px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0rem;
+  border-radius: 21px;
+  width: 250px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-2 .section-2-nav .finance-li-grey li .Finance-white {
+  color: white;
 }
 
 .section-3 {
@@ -432,7 +453,8 @@ input[type="search"] {
   position: relative;
   top: 220px;
   background-color: #5f5f5f;
-  max-width: 1028px;
+  max-width: 2028px;
+  /*1028 before*/
   width: calc(100% - 10px);
   margin: 0px auto;
 }
@@ -442,7 +464,8 @@ input[type="search"] {
   position: relative;
   top: 220px;
   background-color: #16889A;
-  max-width: 1028px;
+  max-width: 2028px;
+  /*1028 before*/
   width: calc(100% - 10px);
   margin: 0px auto;
 }
@@ -453,7 +476,8 @@ input[type="search"] {
   position: relative;
   top: 220px;
   background-color: #5f5f5f;
-  max-width: 1028px;
+  max-width: 2028px;
+  /*1028 before*/
   width: calc(100% - 10px);
   margin: 0px auto;
 }

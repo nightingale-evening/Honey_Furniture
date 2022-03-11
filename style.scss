@@ -21,7 +21,7 @@ input[type="search"] {
     font-family: 'Feeling Passionate', sans-serif;
     opacity: 55%;
     // font-size:50px;
-    font-size: 5vw;
+    font-size: 3vw;
     text-align: center;
 }
 
@@ -154,6 +154,7 @@ input[type="search"] {
 
         li{
             margin: 10px;
+            font-size:1.05vw;
             // list-style-position: outside;
         }
     }
@@ -210,6 +211,7 @@ input[type="search"] {
         outline: none;
         padding-left: 20px;
         margin:0px 0px 0px 45px;
+        font-size:0.9vw;
         
         input.nosubmit {
             width: 260px;
@@ -252,7 +254,7 @@ input[type="search"] {
 
 
 .section-2{
-    height: 12vh;
+    height: 8vh;
     position: relative;
     top: 100px;
     background-color: #F2F3F3;
@@ -265,14 +267,18 @@ input[type="search"] {
         align-items: center;
         flex-direction: row;
         height: 100%;
-        max-width: 1028px;
-        width:calc(100% - 50px);
-        margin: 0px auto;
+        // max-width: 1028px;
+        // width:calc(100% - 50px);
+        margin: 0px 100px;
+        margin-right: auto;
+        order:9;
 
         
         li{
             list-style: none;
             text-decoration: none;
+            font-size:1.1vw;
+
 
             a{
                 text-decoration: none;
@@ -280,15 +286,29 @@ input[type="search"] {
             }
         }
 
+        .Fjalla-text-h2{
+            display: flex;
+        }
+
+
         .finance-li-grey{
             background-color: grey;
-            border-radius: 25px;
-            width:60px;
-            height: 72px;
-            position: sticky;
-            top: 0rem;
+            border-radius: 21px;
+            width:250px;
+            height: 80px;
+            // position: sticky;
+            // top: 0rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
+            li{
+                .Finance-white{
+                    color: white;
+                }
+            }
         }
+
     }
 }
 
@@ -401,16 +421,73 @@ input[type="search"] {
     }
 }
 
+// .imagebox{
+//     position: relative;
+//     top: -50px;
+//     width: calc(50% + 50px);
+//     height: 100px;
+//     background-color: #16889A;
+//     border-left: 100px solid white;
+//     border-bottom: 50px solid transparent;
+// }
+
+
+    // .imagebox:before {
+    //     display: inline-block;
+    //     margin: 0;
+    //     margin-left: -101px;
+    //     margin-top: -1px;
+    //     position: absolute;
+    //     content: '';
+    //     width: 0;
+    //         height: 0;
+    //         border-bottom: 151px solid #0ffab9;
+    //         border-left: 30px solid transparent;
+    // }
+
+
+
 .section-4{
+
     height: 25vh;
     position: relative;
-    top:  220px;
+    top: 220px;
     background-color: #5f5f5f;
-
-    max-width: 1028px;
+    max-width: 2028px;  /*1028 before*/
     width:calc(100% - 10px);
     margin: 0px auto;
+
+    // clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+    // border-right: 90px solid white;
+    // border-bottom: 90px solid transparent;
+
+    
+
+    // float: left;
+    // shape-outside: polygon(0 0, 0 300px, 200px 300px);
+    // clip-path: polygon(0 0, 0 300px, 200px 300px);
+    // shape-outside: polygon(200px 300px, 300px 300px, 300px 0, 0 0);
+    // clip-path: polygon(20px 300px, 300px 300px, 300px 0, 0 0);
+    // background: linear-gradient(to top right#67D7F5, #86F7CC);
+    // height: 300px;
+    // width: 300px;
+
+    // border: solid;
+//   background: linear-gradient(100deg, #5f5f5f 49.75%, black 50%, black calc(50% + 3px), green calc(50% + 4px));
+//   background: linear-gradient(to right top, #ffffff 0%, #ffffff 49.9%, #000000 50%, #000000 51%, #ffffff 51.1%, #ffffff 100%);
+//   display: flex;
+//   margin:1em;
+
+    // .imagebox{
+    //     float: right;
+    //     shape-outside: polygon(2000px 3000px, 300px 300px, 300px 0, 0 0);
+    //     clip-path: polygon(2000px 3000px, 300px 300px, 300px 0, 0 0);
+    //     background: linear-gradient(to bottom left, #67D7F5, #86F7CC);
+    //     height: 300px;
+    //     width: 3000px;
+    // }
 }
+
 
 .section-5{
     height: 25vh;
@@ -418,7 +495,7 @@ input[type="search"] {
     top: 220px;
     background-color: #16889A;
 
-    max-width: 1028px;
+    max-width: 2028px; /*1028 before*/
     width:calc(100% - 10px);
     margin: 0px auto;
 }
@@ -430,7 +507,7 @@ input[type="search"] {
     top: 220px;
     background-color: #5f5f5f;
 
-    max-width: 1028px;
+    max-width: 2028px; /*1028 before*/
     width:calc(100% - 10px);
     margin: 0px auto;
     
