@@ -395,12 +395,15 @@ input[type="search"] {
         background-size: 150px;
         width: 60px;
         height: 70px;
+        
     }
 
     .trustpilot-img{
         background-size: 100px;
-        width: 145px;
-        height: 90px;
+        // width: 145px;
+        // height: 90px;
+        width:55%;
+        height: auto;
     }
 
     .thumbsUp-img{
@@ -416,7 +419,7 @@ input[type="search"] {
     }
 
     .icon-info-3{
-        margin: 0px 10px 0px 10px;
+        margin: 0px 5px 0px 90px;
     }
 
     .icon-info-1, .icon-info-2, .icon-info-4, .icon-info-5{
