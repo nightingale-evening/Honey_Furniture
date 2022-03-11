@@ -248,6 +248,27 @@ input[type="search"] {
     .section-3{
         display: none;
     }
+
+    .section-4-5-6{
+        display: none;
+    }
+
+    .text-for-phone{
+        height: 30vh;
+        position: relative;
+        top: 270px;
+        text-align: center;
+    
+        h1{
+            font-family: 'Feeling Passionate', sans-serif;
+            opacity: 77%;
+            // font-size:50px;
+            font-size: 15vw;
+            padding: 10px;
+            color: #000000;
+            text-align: center;
+        }
+    }
 }
 
 
@@ -354,6 +375,7 @@ input[type="search"] {
         flex-direction: row;
     }
 }
+
 
 .section-4-5-6{
     display: flex;
