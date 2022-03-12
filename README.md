@@ -12,6 +12,7 @@ research into 'clip path' and implementing shapes into HTML sections, via CSS.
 * Responsive Design
 
 ## UX/UI Design
+![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/HoneyPot%20Furniture%20UXUI%20Design.JPG)
 
 ## Final Product
-
+![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/HoneyPot%20Furniture.JPG)
