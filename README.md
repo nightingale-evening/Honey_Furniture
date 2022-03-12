@@ -16,3 +16,4 @@ research into 'clip path' and implementing shapes into HTML sections, via CSS.
 
 ## Final Product
 ![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/HoneyPot%20Furniture.JPG)
+![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/HoneyPot%20Furniture%20pt2.JPG)
