@@ -381,8 +381,21 @@ input[type="search"] {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 915px) {
   .section-3 {
+    height: 0vh;
+    display: none;
+  }
+  .section-4 {
+    height: 0vh;
+  }
+  .section-5 {
+    height: 0vh;
+  }
+  .section-6 {
+    height: 0vh;
+  }
+  .text-box {
     display: none;
   }
 }
