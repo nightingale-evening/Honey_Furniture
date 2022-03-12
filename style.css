@@ -573,6 +573,10 @@ input[type="search"] {
   text-align: left;
 }
 
+.section-4-5-6 .product-1-text p {
+  font-size: 1.4vw;
+}
+
 .section-4-5-6 .product-2-text {
   font-family: 'Feeling Passionate', sans-serif;
   opacity: 77%;
@@ -622,7 +626,9 @@ input[type="search"] {
 
 .section-4 .text-box {
   margin: -20px;
-  padding: 0 5.5%;
+  padding: 3.5%;
+  -webkit-padding-start: 5.5%;
+          padding-inline-start: 5.5%;
   height: auto;
   -webkit-box-flex: 5;
       -ms-flex-positive: 5;
@@ -679,13 +685,18 @@ input[type="search"] {
 }
 
 .section-5 .text-box {
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
   height: auto;
   background: #16889A;
   -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 45% 0);
           clip-path: polygon(100% 0, 100% 100%, 0 100%, 45% 0);
   text-align: right;
   margin: -20px;
-  padding: 5.5%;
+  padding: 3.5%;
+  -webkit-padding-start: 5.5%;
+          padding-inline-start: 5.5%;
 }
 
 .section-5 .text-box h1 {
@@ -709,7 +720,12 @@ input[type="search"] {
 }
 
 .section-5 .imagebox2 img {
-  width: 26%;
+  width: 27%;
+  height: auto;
+}
+
+.section-5 .imagebox2 .blueSofa2 {
+  width: 37%;
   height: auto;
 }
 
@@ -744,7 +760,9 @@ input[type="search"] {
   -webkit-clip-path: polygon(46% 0, 100% 100%, 0 100%, 0 0);
           clip-path: polygon(46% 0, 100% 100%, 0 100%, 0 0);
   margin: -20px;
-  padding: 5.5%;
+  padding: 4.5%;
+  -webkit-padding-start: 5.5%;
+          padding-inline-start: 5.5%;
 }
 
 .section-6 .text-box h1 {
@@ -769,6 +787,11 @@ input[type="search"] {
 
 .section-6 .imagebox img {
   width: 26%;
+  height: auto;
+}
+
+.section-6 .imagebox .blackSofa3 {
+  width: 16%;
   height: auto;
 }
 
