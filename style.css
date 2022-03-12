@@ -621,7 +621,7 @@ input[type="search"] {
   border-left: 0px solid white;
   border-right: 0px solid white;
   overflow: hidden;
-  border: 5px solid #5f5f5f;
+  border: 3px solid #5f5f5f;
 }
 
 .section-4 .text-box {
@@ -681,7 +681,7 @@ input[type="search"] {
   border-left: 0px solid white;
   border-right: 0px solid white;
   overflow: hidden;
-  border: 5px solid #16889A;
+  border: 3px solid #16889A;
 }
 
 .section-5 .text-box {
@@ -748,7 +748,7 @@ input[type="search"] {
   border-left: 0px solid white;
   border-right: 0px solid white;
   overflow: hidden;
-  border: 5px solid #444851;
+  border: 3px solid #444851;
 }
 
 .section-6 .text-box {
@@ -792,6 +792,11 @@ input[type="search"] {
 
 .section-6 .imagebox .blackSofa3 {
   width: 16%;
+  height: auto;
+}
+
+.section-6 .imagebox .blackSofa4 {
+  width: 15%;
   height: auto;
 }
 
