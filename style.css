@@ -1,6 +1,7 @@
 /*Add fonts to the page*/
 @import url("http://fonts.cdnfonts.com/css/feeling-passionate");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 /* Reset the page in SCSS */
 * {
   margin: 0;
@@ -219,12 +220,14 @@ input[type="search"] {
 }
 
 .top .navbar li, .top .navbar2 li {
-  margin: 10px;
-  font-size: 1.05vw;
+  margin: 5px;
+  font-size: 1.01vw;
 }
 
 .top .navbar li {
   list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .top .navbar li:before {
@@ -248,6 +251,8 @@ input[type="search"] {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .top .navbar2 .login-btn:hover {
@@ -270,14 +275,17 @@ input[type="search"] {
 
 .top .nav-searchbar {
   width: 500px;
-  height: 33.5px;
+  height: 38.5px;
   border-radius: 25px;
   border: none;
-  background: #eeecec;
+  background: #f5f3f3;
   outline: none;
   padding-left: 20px;
   margin: 0px 0px 0px 45px;
   font-size: 0.9vw;
+  opacity: 75%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .top .nav-searchbar input.nosubmit {
@@ -402,7 +410,7 @@ input[type="search"] {
 }
 
 .section-2 {
-  height: 8vh;
+  height: 7vh;
   position: relative;
   top: 100px;
   background-color: #F2F3F3;
@@ -434,6 +442,7 @@ input[type="search"] {
   list-style: none;
   text-decoration: none;
   font-size: 1.1vw;
+  font-weight: 500;
 }
 
 .section-2 .section-2-nav li a {
@@ -448,7 +457,7 @@ input[type="search"] {
 }
 
 .section-2 .section-2-nav .finance-li-grey {
-  background-color: grey;
+  background-color: #5E5E5E;
   border-radius: 21px;
   width: 250px;
   height: 80px;
@@ -465,6 +474,8 @@ input[type="search"] {
 
 .section-2 .section-2-nav .finance-li-grey li .Finance-white {
   color: white;
+  font-size: 1.5vw;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 915px) {
