@@ -228,6 +228,7 @@ input[type="search"] {
   list-style: none;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  font-size: 0.9vw;
 }
 
 .top .navbar li:before {
