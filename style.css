@@ -626,8 +626,8 @@ input[type="search"] {
   font-size: 1.4vw;
 }
 
-@media screen and (min-width: 900px) {
-  .section-4 {
+@media screen and (min-width: 653px) and (max-width: 901px) {
+  .section-4-5-6 .section-4 {
     height: 45vh;
     position: relative;
     top: 220px;
@@ -647,6 +647,36 @@ input[type="search"] {
     overflow: hidden;
     border: 4px solid #5f5f5f;
     border-right: 0px solid #5f5f5f;
+  }
+  .section-4-5-6 .section-5 {
+    height: 42vh;
+  }
+  .section-4-5-6 .section-6 {
+    height: 42vh;
+  }
+}
+
+@media screen and (min-width: 820px) and (min-height: 1180px) {
+  .section-4-5-6 .section-4, .section-4-5-6 .section-5, .section-4-5-6 .section-6 {
+    height: 25vh;
+  }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1000px) and (min-height: 412px) {
+  .section-4-5-6 .section-4, .section-4-5-6 .section-5, .section-4-5-6 .section-6 {
+    height: 45vh;
+  }
+}
+
+@media screen and (min-width: 720px) and (min-height: 844px) and (max-height: 1180px) {
+  .section-4-5-6 .section-4, .section-4-5-6 .section-5, .section-4-5-6 .section-6 {
+    height: 25vh;
+  }
+}
+
+@media screen and (min-width: 912px) and (max-width: 912px) and (min-height: 1368px) {
+  .section-4-5-6 .section-4, .section-4-5-6 .section-5, .section-4-5-6 .section-6 {
+    height: 20vh;
   }
 }
 

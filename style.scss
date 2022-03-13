@@ -398,7 +398,6 @@ input[type="search"] {
     background-color: #F2F3F3;
 
 
-
     .section-2-nav{
         display: flex;
         justify-content: space-between;
@@ -576,25 +575,81 @@ input[type="search"] {
 }
 
 //600px phones
-@media screen and (min-width: 900px) {
-    .section-4{
-        height: 45vh;
-        position: relative;
-        top: 220px;
-        max-width: 2028px;  /*1028 before*/
-        width:calc(100% - 10px);
-        margin: 0px auto;
+@media screen and (min-width: 653px) and (max-width: 901px) {
+    .section-4-5-6{
+        .section-4{
+            height: 45vh;
+            position: relative;
+            top: 220px;
+            max-width: 2028px;  /*1028 before*/
+            width:calc(100% - 10px);
+            margin: 0px auto;
+    
+            display:flex;
+            flex-direction: row;
+            border-left:0px solid white;
+            border-right:0px solid white;
+            overflow:hidden;
+    
+            border: 4px solid #5f5f5f;
+            border-right: 0px solid #5f5f5f;
 
-        display:flex;
-        flex-direction: row;
-        border-left:0px solid white;
-        border-right:0px solid white;
-        overflow:hidden;
+            // img{
+            //     width:60%;
+            //     height:auto;
+            // }
+        }
 
-        border: 4px solid #5f5f5f;
-        border-right: 0px solid #5f5f5f;
+        .section-5{
+            height:42vh;
+        }
+        .section-6{
+            height:42vh;
+        }
+    }
+    
+}
+
+@media screen and (min-width:820px) and (min-height: 1180px){
+    .section-4-5-6{
+        .section-4, .section-5, .section-6{
+            height:25vh;
+        }
     }
 }
+
+@media screen and (min-width:820px) and (max-width:1000px) and (min-height: 412px){
+    .section-4-5-6{
+        .section-4, .section-5, .section-6{
+            height:45vh;
+        }
+    }
+}
+
+@media screen and (min-width:720px) and (min-height:844px) and (max-height:1180px){
+    .section-4-5-6{
+        .section-4, .section-5, .section-6{
+            height:25vh;
+        }
+    }
+}
+
+
+@media screen and (min-width:912px) and (max-width:912px) and (min-height:1368px){
+    .section-4-5-6{
+        .section-4, .section-5, .section-6{
+            height:20vh;
+        }
+    }
+}
+
+// @media screen and (min-width:414px) and (min-height: 896px){
+//     .section-4-5-6{
+//         .section-4, .section-5, .section-6{
+//             height:17vh;
+//         }
+//     }
+// }
 
 .section-4{
     height: 22vh;
