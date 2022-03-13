@@ -19,8 +19,8 @@ research into 'clip path' and implementing shapes into HTML sections, via CSS.
 To solve this I simply had to add 'https' and not 'http', as most browsers will block the 'http'.
 
 ## UX/UI Design
-![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/HoneyPot%20Furniture%20UXUI%20Design.JPG)
+![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/images/HoneyPot%20Furniture%20UXUI%20Design.JPG)
 
 ## Final Product
-![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/HoneyPot%20Furniture%20(final).png)
+![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/images/HoneyPot%20Furniture%20(final).png)
 
