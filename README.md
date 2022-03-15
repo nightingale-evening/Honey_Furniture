@@ -10,6 +10,7 @@ The lessons learned are below:
 * Re-creating a website as close as possible to the design that was given to me. 
 * (updating my knowledge on) Responsive Design
 * Adding favicon to a page 
+* Creating a website for a company in a given time period/deadline. (I had 5 days to complete the task)
 
 ## Challenges 
 
