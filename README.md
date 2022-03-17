@@ -1,6 +1,6 @@
 # Ecommerce Website - HoneyPot-Furniture
 
-This was a coding test, which had me create a fully responsive ecommerce website from a UX/UI design. This website which uses HTML, SASS, JavaScript & Responsive Design.
+This was a coding test, which had me create a fully responsive ecommerce website from a UX/UI design. This website uses HTML, SASS, JavaScript & Responsive Design.
 
 ## Lessons Learned
 
