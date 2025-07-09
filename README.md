@@ -25,6 +25,3 @@ To solve this I simply had to add 'https' and not 'http', as most browsers will 
 ## Final Product
 ![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/images/HoneyPot%20Furniture%20(final).png)
 
-### Website Link
-https://joshuasprogramming.github.io/HoneyPot-Furniture/
-
