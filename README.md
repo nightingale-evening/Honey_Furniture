@@ -19,9 +19,4 @@ research into 'clip path' and implementing shapes into HTML sections, via CSS.
 * I ran into an issue with the font url which allowed me to use the 'feeling-pasionate' font. The issue was that the font won't appear on devices that weren't my own.
 To solve this I simply had to add 'https' and not 'http', as most browsers will block the 'http'.
 
-## UX/UI Design
-![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/images/HoneyPot%20Furniture%20UXUI%20Design.JPG)
-
-## Final Product
-![Final Product](https://github.com/JoshuasProgramming/HoneyPot-Furniture/blob/main/images/HoneyPot%20Furniture%20(final).png)
 
